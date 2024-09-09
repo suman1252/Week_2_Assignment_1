@@ -2,8 +2,8 @@
  * Suman Kumari
  * 09-09-2024
  * program that implements the Caesar Cipher encryption technique
-but with a twist. The program should take an input string and a shift pattern array. If
-the pattern array length is shorter than the input string, repeat the pattern.
+but with a twist. If the pattern array length is shorter than the input string, 
+repeat the pattern.
  */
 
 package Week_2_Assignment_1;
