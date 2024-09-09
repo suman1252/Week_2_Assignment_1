@@ -2,8 +2,7 @@
  * Suman Kumari
  * 09-09-2024
  * Java program that finds whether a given number can be expressed as the sum of two or
-more consecutive natural numbers. If possible, the program should print all possible
-combinations of consecutive natural numbers that sum up to the given number.
+more consecutive natural numbers. 
  */
 
 package Week_2_Assignment_1;
