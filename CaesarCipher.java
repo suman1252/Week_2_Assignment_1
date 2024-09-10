@@ -53,11 +53,13 @@ public class CaesarCipher {
                 if (Character.isUpperCase(currentChar)) {
                     char encryptedChar = (char) ((currentChar - 'A' + shift) % 26 + 'A');
                     encrypted.append(encryptedChar);
-                } else {
+                }
+                else {
                     char encryptedChar = (char) ((currentChar - 'a' + shift) % 26 + 'a');
                     encrypted.append(encryptedChar);
                 }
-            } else {
+            }
+            else {
                 encrypted.append(currentChar);
             }
         }

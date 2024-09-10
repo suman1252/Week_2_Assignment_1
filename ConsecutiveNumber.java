@@ -23,7 +23,8 @@ public class ConsecutiveNumber {
             n = sc.nextInt();
             if (n <= 0) {
                 System.out.println(Constant.INVALID_INTEGERS);
-            } else {
+            }
+            else {
                 System.out.println(Constant.CONSECUTIVE_NUMBER + n + ":");                
                 ConsecutiveSum(n);
             }

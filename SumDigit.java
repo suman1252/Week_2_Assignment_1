@@ -21,14 +21,12 @@ public class SumDigit {
                 sc.nextLine();
                 continue;
             }
-            n = sc.nextInt(); 
-            
-            // Calculate the sum of digits until it is a single digit
-            int result = calculateDigitSum(n);
-            // Validate the input number
+            n = sc.nextInt();          
+            int result = calculateDigitSum(n);  
             if (n < 0) {
                 System.out.println(Constant.INVALID_INTEGERS);
-            } else {
+            }
+            else {
                 System.out.println(Constant.SUM_OF_DIGIT + result);
             }
         }
