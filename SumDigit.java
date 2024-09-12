@@ -11,11 +11,10 @@ package Week_2_Assignment_1;
 import java.util.Scanner;
 public class SumDigit {
 	static Scanner sc = new Scanner(System.in);
-    static int n;  //variable to hold user input number
+    static int n;  
     public static void main(String[] args) {       
         while (true) {
             System.out.print(Constant.ENTER_NUMBER);
-            // Check if the input is an integer
             if (!sc.hasNextInt()) {
                 System.out.println(Constant.INVALID_INTEGERS);
                 sc.nextLine();

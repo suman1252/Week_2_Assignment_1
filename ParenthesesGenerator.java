@@ -42,6 +42,7 @@ public class ParenthesesGenerator {
             System.out.println("]");
         }
     }
+//    
     private static boolean isValidInput(String input) {
         if (input.isEmpty() || input.matches("\\s+")) {
             return false; 
